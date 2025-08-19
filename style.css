@@ -5,14 +5,14 @@
     --Cyan-800: hsl(184, 100%, 22%);
     --Green-950: hsl(179, 100%, 13%);
     /* (paragraphs) */
-    --Transparent--white : hsla(0, 0%, 100%, 0.75);
+    --Transparent--white : hsla(0, 0%, 100%, 0.415);
     /* (background, headings, buttons) */
     --Gray-100 : hsl(0, 0%, 95%);
 }
 
 body{
     font-family: 'Lexend Deca', sans-serif;
-    background-color: var(--Transparent--white);
+    background-color: rgba(245, 242, 242, 0.723);
     margin: 0;
     display: flex;
     justify-content: center;
@@ -80,7 +80,7 @@ button{
     bottom: 0px;
     left: 0;
     margin-bottom: 12px;
-    margin-left: 20px;
+    margin-left: 50px;
     margin-bottom: 50px;
     background-color: var(--Gray-100);
     border: none;
@@ -89,6 +89,7 @@ button{
     font-family: "Lexend Deca", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
+    font-size: 15px;
     font-style: normal;
     padding: 12px 24px ;
     text-align: center;
